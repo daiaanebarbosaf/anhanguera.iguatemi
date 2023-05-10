@@ -42,7 +42,7 @@ body{
     font-size: 1.6rem;
     text-align: center;
 
-    overflow: overlay;/*faz com que o espaço do scroll não seja contado no movimento de descer a página. Antes de fazer isso, toda vez que a página rolava a logo era jogada um pouco para o lado*/
+    overflow: overlay;
 
     background-color: var(--bg-light);
 }
@@ -62,7 +62,7 @@ img {
 }
 
 section {
-    padding-block: 10rem;
+    padding-block: 5rem;
 }
 
 section header h4{
@@ -131,10 +131,10 @@ section .content p {
 }
 
 .social-links {
-    display: flex;/*os elementos ficarão um ao lado do outro*/
-    align-items: center;/*centralizando alinhamento os itens*/
-    justify-content: center;/*colocando no centro da página*/
-    gap: 3.2rem;/*espaçamento entre elementos*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
 }
 
 /*custum colors*/
@@ -142,7 +142,6 @@ section .content p {
     fill: var(--brand-light);
 }
 
-/*mudando a cor da palavra Care na logo da página inicial*/
 #navigation .logo path[fill*="#00856F"],
 #backToTopButton circle {
     fill: var(--primary-color);
@@ -166,19 +165,12 @@ body.menu-expanded #navigation .logo path,
 
 nav {
     display: flex;
-    /*align-items: center;
-    justify-content: space-between;
-
-    /*padding-inline: ;
-    padding-block: ;*/
-
-    /*padding: 1.6rem 2.4rem; esse padding, é um atalho dos dois acima*/
 
     height: var(--nav-height);
 
     position: fixed;
     top: 0;
-    width:100vw;/*pega 100% da página*/
+    width:100vw;
 
     z-index: 100;
 }
@@ -193,21 +185,10 @@ nav.scroll {
     background: var(--primary-color);
 }
 
-/*aqui é definido que vai pintar apenas o primeiro svg que encontrar*/
-
-/*
-nav.scroll .logo path{
-    fill:white;
-}
-
-nav.scroll button path {
-    stroke: white;
-}
-*/
 nav button {
     background: none;
     border: none;
-    cursor: pointer;/*aparece o simbolo de mãozinha quando passar o mouse por cima do X de fechar o menu*/
+    cursor: pointer;
 }
 
 nav .menu,
@@ -218,23 +199,21 @@ nav .close-menu {
 /*============Menu que expande============*/
 
 body.menu-expanded {
-    overflow: hidden;/*está tirando as barrinhas de rolagem pra cima e para baixo e para os lados.*/
+    overflow: hidden;
 }
 
 body.menu-expanded > :not(nav) {
-    /*display: none; aplica o display nome em todos, menos nos nav de primeiro nível, isso faz com que quando o menu estiver expandido nenhum outro botão apareça*/
-    visibility: hidden;/*visibilidade escondida*/
+    visibility: hidden;
 }
 
-/*configuração para quando o menu estiver fechado*/
+
 .menu, 
 .close-menu,
 body.menu-expanded .open-menu {
-    opacity: 0;/*esconte os textos*/
-    visibility: hidden;/*este impede que os links estejam clicaveis, pois o opacity só faz com que desapareça, mas os links contunuam clicáveis*/
+    opacity: 0;
+    visibility: hidden;
 }
 
-/*configuração para quando o menu estiver aberto*/
 body.menu-expanded .menu,
 body.menu-expanded .close-menu {
     opacity: 1;
@@ -259,26 +238,19 @@ body.menu-expanded .menu{
     transform: translateY(0);
 }
 
-/*body.menu-expandido nav{
-    position: relative;
-}*/
-
-/*configurações do botão que fica no menu expandido*/
-
 .menu ul:nth-child(1){
-    display: flex;/*transformando os elementos em flexíveis*/
-    flex-direction: column;/*transformando os elementos em coluna*/
-    gap: 4.8rem;/*espaçando os elementos*/
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
 
     margin-top: 6rem;
 
-    font-weight: 700;/*transformando em negrito*/
+    font-weight: 700;
     font-size: 2.4rem;
-    line-height: 3.1rem; /*É comumente usado para definir a distância entre as linhas de texto*/
+    line-height: 3.1rem; 
 
 }
 
-/*só foi possível mudar a cor e tirar o sublinhado padrão acessando assim, pois esses elementos então dentro do href*/
 .menu ul li a {
     color: white;
     text-decoration: none;
@@ -468,7 +440,11 @@ body.menu-expanded button path {
 
 #about .content p {
     margin-top: 2.4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
+}
+
+#about img {
+    margin-bottom: 5rem;
 }
 
 /*============CONGIGURAÇÕES DO CONTACT============*/
@@ -526,9 +502,8 @@ footer p {
     margin-bottom: 3.2rem;
 }
 
-/*configurações dos links das redes sociais*/
+
 footer .social-links {
-    /*o flex-start faz com que os itens se alinhei ao inicio da linha*/
     justify-content: flex-start;
 }
 
@@ -536,7 +511,8 @@ footer .social-links {
 footer a {
     color: var(--brand-beige);
     text-decoration: none;
-  }
+}
+
 /*============CONGIGURAÇÕES DO BACK TO TOP ============*/
 
 #backToTopButton {
@@ -559,7 +535,7 @@ footer a {
 
 /*============CONGIGURAÇÕES DE RESPONSIVIDADE============*/
 
-/*Essa linha de código significa dizer que quando a tela tiver o tamanho mínimo de 1024px, as cofigurações que estaram dentro dos conchetes será aplicada*/
+
 @media (min-width: 1024px){
 
     /*===CONGIGURAÇÕES GERAIS===*/
@@ -568,7 +544,6 @@ footer a {
         overflow: auto;
     }
 
-    /*Essa linha diz que tudo que está dentro da página vai crescer 100% até chegar aos 1121px que é igual a 122rem*/
     .wrapper {
         width: min(122rem, 100%);
         display: grid;
@@ -603,7 +578,7 @@ footer a {
 
     /*===CONGIGURAÇÕES DO RESET===*/
     /*Serão resetadas todas as configurações para que possa mexer no menu*/
-    nav#navigation .wrapper * { /*o asterisco siginifica pegar todos*/
+    nav#navigation .wrapper * { 
         margin: 0;
         padding: 0;
         visibility: initial;
@@ -737,7 +712,6 @@ footer a {
     }
 
     #home .wrapper {
-        /*aqui iremos definir qual o tamanho de cada item na página. Tudo que está na col-a, vai ocupar 60.5rem e assim por diante*/
         grid-template-columns: 60.5rem 1fr;
         grid-template-areas:
         'A B'
@@ -749,11 +723,7 @@ footer a {
         align-self: center;
     }
 
-    /*#home .col-b {
-        grid-area: B;
-    }*/
-
-    #home h1 {
+      #home h1 {
         font-size: 5.2rem;
     }
 
@@ -769,9 +739,8 @@ footer a {
         gap: 0;
     }
 
-    /*Essa linha significa dizer que, procure o .stat que anterior a ele tenha um .stat*/
     #home .stats .stat + .stat {
-        border-left: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
     }
 
     #home .stats .stat {
@@ -808,7 +777,6 @@ footer a {
 
     #about .wrapper {
         grid-template-columns: 48rem 1fr;
-        /*aqui é determinado a posição das colunas*/
         grid-template-areas:  
         'B A'
         'C D';
@@ -817,7 +785,6 @@ footer a {
 
     #about .col-a{
         text-align: left;
-        
     }
 
     #about .col-d img{
