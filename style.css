@@ -565,6 +565,14 @@ footer a {
         grid-area: D;
     }
 
+    .col-e {
+        grid-area: E;
+    }
+
+    .col-f {
+        grid-area: F;
+    }
+
     section {
         padding-block: 16rem;
     }
@@ -779,11 +787,12 @@ footer a {
         grid-template-columns: 48rem 1fr;
         grid-template-areas:  
         'B A'
-        'C D';
+        'C D'
+        'F E';
         gap: 6.7rem;
     }
 
-    #about .col-a{
+    #about .col-a {
         text-align: left;
     }
 
@@ -797,6 +806,10 @@ footer a {
 
     #about .content p {
         margin-bottom: 0;
+    }
+
+    #about .col-e{
+        text-align: left;
     }
 
     #about a {
