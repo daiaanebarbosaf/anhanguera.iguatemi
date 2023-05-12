@@ -50,7 +50,7 @@ body{
 .wrapper{
     width: min(50rem, 100%);
     margin-inline: auto;
-    padding-inline: 3.4rem;
+    
 }
 
 ul {
@@ -170,7 +170,7 @@ nav {
 
     position: fixed;
     top: 0;
-    width:100vw;
+    width: 100vw;
 
     z-index: 100;
 }
@@ -428,22 +428,22 @@ body.menu-expanded button path {
     margin-block: 1.6rem;
 }
 
-/*============CONGIGURAÇÕES DO ABOUT============*/
+/*============CONGIGURAÇÕES DO NEWS============*/
 
-#about {
+#news {
     background-color: var(--brand-beige);
 }
 
-#about header h2 {
+#news header h2 {
     margin-bottom: 2.4rem;
 }
 
-#about .content p {
+#news .content p {
     margin-top: 2.4rem;
     margin-bottom: 1rem;
 }
 
-#about img {
+#news img {
     margin-bottom: 5rem;
 }
 
@@ -781,9 +781,9 @@ footer a {
         flex-grow: 1;
     }
 
-    /*==========CONFIGURAÇÕES DO ABOUT==========*/
+    /*==========CONFIGURAÇÕES DO NEWS==========*/
 
-    #about .wrapper {
+    #news .wrapper {
         grid-template-columns: 48rem 1fr;
         grid-template-areas:  
         'B A'
@@ -792,27 +792,27 @@ footer a {
         gap: 6.7rem;
     }
 
-    #about .col-a {
+    #news .col-a {
         text-align: left;
     }
 
-    #about .col-d img{
+    #news .col-d img{
         width: 80%;
     }
 
-    #about .col-c {
+    #news .col-c {
         text-align: right;
     }
 
-    #about .content p {
+    #news .content p {
         margin-bottom: 0;
     }
 
-    #about .col-e{
+    #news .col-e{
         text-align: left;
     }
 
-    #about a {
+    #news a {
         text-decoration: none;
         color: var(--primary-color);
 
