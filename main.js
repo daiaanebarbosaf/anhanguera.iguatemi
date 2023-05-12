@@ -77,7 +77,11 @@ ScrollReveal({
     #home .stats, 
     #services,
     #services header,
-    #services .card
+    #services .cards,
     #about, 
     #about header, 
-    #about .content`)
+    #about .content,
+    #contact,
+    #contact header,
+    #contact .content,
+    #contact .col-b`)
