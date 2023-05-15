@@ -452,13 +452,17 @@ body.menu-expanded button path {
 }
 
 /*============CONGIGURAÇÕES DO EVENTS============*/
+#events .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-#events img {
-    width: 40%;
-    margin-top: 2rem;
-    margin-right: 1rem;
 }
 
+#events img {
+    width: 100%;
+    margin-top: 3rem;
+}
 
 /*============CONGIGURAÇÕES DO CONTACT============*/
 
@@ -833,6 +837,24 @@ footer a {
         margin-top: 6rem;
     }
 
+    /*============CONGIGURAÇÕES DO EVENTS============*/
+    #events {
+       display: flex;
+       align-items: center;
+    }
+
+    #events .content {
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+        justify-self: center;
+        width: 70%;
+
+        gap: 2rem;
+    }
+
+ 
     /*==========CONFIGURAÇÕES DO CONTACT==========*/
 
     #contact .wrapper {
