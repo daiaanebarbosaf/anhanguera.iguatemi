@@ -61,6 +61,7 @@ img {
 
 section {
     padding-block: 5rem;
+    padding-inline: 2.4rem;
 }
 
 section header h4{
@@ -246,6 +247,11 @@ body.menu-expanded .menu{
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.1rem; 
+
+}
+
+.menu ul li:nth-child(5n){
+    margin-right: 5rem;
 
 }
 
@@ -483,6 +489,7 @@ body.menu-expanded button path {
 footer {
     background-color: var(--primary-color);
     padding-block: 6rem;
+    padding-inline: 2.4rem;
 
     text-align: left;
 
@@ -553,6 +560,7 @@ footer a {
     .wrapper {
         width: min(122rem, 100%);
         display: grid;
+        
     }
 
     .col-a {
