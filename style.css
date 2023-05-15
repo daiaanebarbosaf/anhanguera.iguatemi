@@ -176,7 +176,7 @@ nav {
 nav .wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 nav.scroll {
@@ -496,7 +496,6 @@ footer .logo {
     width: 23.6rem;
     height: 3.1rem;
 }
-
 
 footer .logo path {
     fill: white;
