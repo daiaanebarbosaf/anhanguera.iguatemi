@@ -84,6 +84,7 @@ ScrollReveal({
     #events,
     #events header,
     #events p,
+    #events a,
     #events img,
     #contact,
     #contact header,
