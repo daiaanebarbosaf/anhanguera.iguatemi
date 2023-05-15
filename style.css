@@ -35,8 +35,6 @@ body {
     height: 100%;
     }
 
-
-
 body{
     font-family: 'DM Sans';
     font-size: 1.6rem;
@@ -446,6 +444,15 @@ body.menu-expanded button path {
 #news img {
     margin-bottom: 5rem;
 }
+
+/*============CONGIGURAÇÕES DO EVENTS============*/
+
+#events img {
+    width: 40%;
+    margin-top: 2rem;
+}
+
+
 
 /*============CONGIGURAÇÕES DO CONTACT============*/
 
