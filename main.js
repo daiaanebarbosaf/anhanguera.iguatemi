@@ -81,11 +81,11 @@ ScrollReveal({
     #news, 
     #news header, 
     #news .content,
+
     #events,
     #events header,
-    #events p,
-    #events a,
-    #events img,
+    #events .content,
+
     #contact,
     #contact header,
     #contact .content,
