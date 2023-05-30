@@ -250,11 +250,6 @@ body.menu-expanded .menu{
 
 }
 
-.menu ul li:nth-child(5n){
-    margin-right: 5rem;
-
-}
-
 .menu ul li a {
     color: white;
     text-decoration: none;
@@ -565,6 +560,10 @@ footer a {
         width: min(122rem, 100%);
         display: grid;
         
+    }
+
+    .menu ul li:nth-child(5n){
+        margin-right: 5rem;
     }
 
     .col-a {
