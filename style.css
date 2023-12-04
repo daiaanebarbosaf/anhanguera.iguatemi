@@ -537,6 +537,16 @@ footer a {
     text-decoration: none;
 }
 
+/*=====CONGIGURAÇÕES DAS PAGINAS DE NEWS=========*/
+#text .pNews {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: justify;
+
+    margin-top: 2rem;
+}
+
 /*============CONGIGURAÇÕES DO BACK TO TOP ============*/
 
 #backToTopButton {
