@@ -562,6 +562,7 @@ footer a {
     padding-inline: 14rem;
 }
 
+
 /*============CONGIGURAÇÕES DO BACK TO TOP ============*/
 
 #backToTopButton {
@@ -905,7 +906,7 @@ footer a {
     /*==========CONFIGURAÇÕES DO FOOTER==========*/
 
     footer {
-        padding-block: 8rem;
+        padding-block: 4rem;
     }
 
     footer .wrapper {
