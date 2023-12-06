@@ -67,7 +67,7 @@ section {
 section header h4{
     font-size: 2rem;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 120%;
     letter-spacing: 0.08rem;
     color: var(--primary-color);
 
@@ -79,7 +79,7 @@ section header h4{
 
 section header h2{
     font-size: 1.5rem;
-    line-height: 3.9rem;
+    line-height: 2rem;
 
     color: var(--headline);
 }
@@ -391,7 +391,7 @@ body.menu-expanded button path {
 }
 
 #services header h4{
-    font-size: 4.4rem;
+    font-size: 2rem;
     line-height: 150%;
     letter-spacing: 0.08rem;
 
@@ -403,7 +403,7 @@ body.menu-expanded button path {
 }
 
 #services header h2 {
-    font-size: 3rem;
+    font-size: 1.8rem;
     line-height: 3.9rem;
 
     color: var(--headline);
@@ -457,10 +457,12 @@ body.menu-expanded button path {
 
 #news img {
     margin-bottom: 5rem;
+    margin-top:2rem;
 }
 
 #news a {
     color: var(--primary-color);
+    
 }
 
 /*============CONGIGURAÇÕES DO EVENTS============*/
@@ -836,6 +838,14 @@ footer a {
     #services h2 {
         width: 47rem;
         margin-inline: auto;
+    }
+
+    #services header h2 {
+        font-size: 2.5rem;
+    }
+
+    #services header h4 {
+        font-size: 3.4rem;
     }
 
     #services .cards {
