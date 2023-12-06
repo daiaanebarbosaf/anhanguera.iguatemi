@@ -65,7 +65,7 @@ section {
 }
 
 section header h4{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0.08rem;
@@ -73,11 +73,12 @@ section header h4{
 
     text-transform: uppercase;
 
-    margin-bottom: 1.6rem;
+
+    margin-top: 5rem;
 }
 
 section header h2{
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 3.9rem;
 
     color: var(--headline);
@@ -558,8 +559,7 @@ footer a {
 }
 
 #text .pNews {
-    margin-top: 10rem;
-    padding-inline: 14rem;
+    margin-top: 2rem;
 }
 
 
@@ -635,6 +635,19 @@ footer a {
     section header h2 {
         font-size: 4rem;
         line-height: 5.2rem;
+        margin-bottom: 2rem;
+    }
+
+    section header h4{
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.08rem;
+        color: var(--primary-color);
+    
+        text-transform: uppercase;
+    
+        margin-bottom: 1.6rem;
     }
 
     /*===CONGIGURAÇÕES DE NAVIGATION===*/
@@ -872,6 +885,12 @@ footer a {
         color: var(--primary-color);
 
         margin-top: 6rem;
+    }
+
+    /*============CONGIGURAÇÕES DA NEWS============*/
+
+    #text .pNews {
+        padding-inline: 14rem;
     }
 
     /*============CONGIGURAÇÕES DO EVENTS============*/
