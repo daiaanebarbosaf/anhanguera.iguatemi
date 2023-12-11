@@ -9,7 +9,7 @@ Esse projeto é a solução para uma boa comunicação entre os pacientes e méd
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-![prewiew](./.github/prewiew.PNG)
+![prewiew](./github/prewiew.PNG)
 
 <p align="center">
   <img alt="imagem-phone" src="./.github/phone.PNG" width="50%">
@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Essa projeto é a solução para uma boa comunicação entre os pacientes e médicos, criado durante a NLW8 Return.
+Essa projeto é a solução para uma boa comunicação entre uma faculdade e o aluno.
 
 ---
 
