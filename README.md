@@ -11,12 +11,6 @@ Esse projeto é a solução para uma boa comunicação entre os pacientes e méd
 
 ![prewiew](/assets/readme/prewiew.PNG)
 
-<p align="center">
-  <img alt="imagem-phone" src="/assets/readme/prewiew-cel.PNG" width="50%">
-</p>
-
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
