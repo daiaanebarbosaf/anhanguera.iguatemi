@@ -1,7 +1,4 @@
-<h1 align="center"> Doctor Care </h1>
-<p align="center">
-Esse projeto é a solução para uma boa comunicação entre os pacientes e médicos, criado durante a NLW8 Return.
-</p>
+<h1 align="center"> Blog Anhanguera Salvador Iguatemi </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
